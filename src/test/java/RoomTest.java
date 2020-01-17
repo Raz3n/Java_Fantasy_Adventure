@@ -16,11 +16,18 @@ public class RoomTest {
     }
 
     @Test
-    public void hasInitialValues(){
+    public void hasName(){
         assertEquals("room1", room.getName());
-        assertEquals(EnemyType.TROLL, room.getEnemy());
-        assertEquals(TreasureType.BAGOFDIAMONDS, room.getTreasure());
+    }
 
+    @Test
+    public void hasEnemy() {
+        assertEquals(EnemyType.TROLL, room.getEnemy());
+    }
+
+    @Test
+    public void hasTreasure() {
+        assertEquals(TreasureType.BAGOFDIAMONDS, room.getTreasure());
     }
 
 }

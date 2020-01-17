@@ -3,12 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="8a20eb25-06c1-4d49-acae-a29b2e012ce1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Components/TreasureType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/TreasureType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Players/FightersTest/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Players/FightersTest/BarbarianTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Players/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Players/Player.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RoomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RoomTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,16 +54,8 @@
       <recent name="Components" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.shouldCalculateFightOutcomeHealthPoints">
-    <configuration name="All in Java_Fantasy_Adventure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Fantasy_Adventure" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BarbarianTest.canGetPowerpoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BarbarianTest">
+    <configuration name="BarbarianTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Fantasy_Adventure" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +65,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Players.FightersTest" />
       <option name="MAIN_CLASS_NAME" value="Players.FightersTest.BarbarianTest" />
-      <option name="METHOD_NAME" value="canGetPowerpoints" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,6 +75,26 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GameTest" />
       <option name="METHOD_NAME" value="canComparePowerPointsOfPlayerAndEnemy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.canComparePowerPointsOfPlayerAndEnemyFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Fantasy_Adventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="canComparePowerPointsOfPlayerAndEnemyFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.hasRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Fantasy_Adventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="hasRoom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,29 +110,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WarlockTest.canGetPowerPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java_Fantasy_Adventure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Players.SpellCastersTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Players.SpellCastersTest" />
-      <option name="MAIN_CLASS_NAME" value="Players.SpellCastersTest.WarlockTest" />
-      <option name="METHOD_NAME" value="canGetPowerPoints" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BarbarianTest" />
         <item itemvalue="JUnit.GameTest.shouldCalculateFightOutcomeHealthPoints" />
+        <item itemvalue="JUnit.GameTest.canComparePowerPointsOfPlayerAndEnemyFalse" />
         <item itemvalue="JUnit.GameTest.canComparePowerPointsOfPlayerAndEnemy" />
-        <item itemvalue="JUnit.WarlockTest.canGetPowerPoints" />
-        <item itemvalue="JUnit.BarbarianTest.canGetPowerpoints" />
-        <item itemvalue="JUnit.All in Java_Fantasy_Adventure" />
+        <item itemvalue="JUnit.GameTest.hasRoom" />
       </list>
     </recent_temporary>
   </component>
@@ -161,22 +158,46 @@
       <screen x="0" y="23" width="1440" height="793" />
     </state>
     <state x="494" y="307" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.793@0.23.1440.793" timestamp="1579173725035" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1579188555847">
-      <screen x="0" y="23" width="1440" height="793" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1579266753004">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1579188555847" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1579188555846">
-      <screen x="0" y="23" width="1440" height="793" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1579191234916" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1579266753004" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1579266753003">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1579188555846" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1579188555846">
-      <screen x="0" y="23" width="1440" height="793" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1579191234915" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1579266753003" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1579266753003">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1579188555846" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1579188555847">
-      <screen x="0" y="23" width="1440" height="793" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1579191234915" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1579266753003" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1579266753004">
+      <screen x="0" y="23" width="1440" height="795" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1579188555847" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1579191234916" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1579266753004" />
+    <state width="1398" height="143" key="GridCell.Tab.1.bottom" timestamp="1579260728003">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.bottom/0.23.1440.793@0.23.1440.793" timestamp="1579189747240" />
+    <state width="1398" height="143" key="GridCell.Tab.1.bottom/0.23.1440.795@0.23.1440.795" timestamp="1579260728003" />
+    <state width="1398" height="143" key="GridCell.Tab.1.center" timestamp="1579260728003">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.center/0.23.1440.793@0.23.1440.793" timestamp="1579189747239" />
+    <state width="1398" height="143" key="GridCell.Tab.1.center/0.23.1440.795@0.23.1440.795" timestamp="1579260728003" />
+    <state width="1398" height="143" key="GridCell.Tab.1.left" timestamp="1579260728003">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.left/0.23.1440.793@0.23.1440.793" timestamp="1579189747239" />
+    <state width="1398" height="143" key="GridCell.Tab.1.left/0.23.1440.795@0.23.1440.795" timestamp="1579260728003" />
+    <state width="1398" height="143" key="GridCell.Tab.1.right" timestamp="1579260728003">
+      <screen x="0" y="23" width="1440" height="795" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.right/0.23.1440.793@0.23.1440.793" timestamp="1579189747240" />
+    <state width="1398" height="143" key="GridCell.Tab.1.right/0.23.1440.795@0.23.1440.795" timestamp="1579260728003" />
     <state x="482" y="33" key="refactoring.ChangeSignatureDialog" timestamp="1579180437319">
       <screen x="0" y="23" width="1440" height="793" />
     </state>

@@ -28,12 +28,22 @@ public class Game {
         }
     }
 
-    public int fightOutcome(Room room, Player player) {
-        if (fight(room, player) == false) {
+    public int fightOutcomeHealthPoints(Room room, Player player) {
             return player.getHealthPoints() - room.getEnemy().getDamage();
-        } else(fight(room, player) == true){
-            return player.addVictoryPoints(room.getTreasure().getVictoryPoints());
         }
+
     }
 
-}
+
+
+
+//    public int fightOutcomeVictoryPoints(Room room, Player player) {
+//        if(fight(room, player) == true) {
+//            return player.getVictoryPoints() + room.getTreasure().getVictoryPoints();
+//        }
+//        return player.getVictoryPoints();
+//    }
+
+
+
+

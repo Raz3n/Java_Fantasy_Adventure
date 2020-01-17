@@ -22,17 +22,30 @@ public class BarbarianTest {
     @Test
     public void hasInheritedParameters(){
         assertEquals("Juan", barbarian.getName());
+    }
+
+    @Test
+    public void hasHealthPoints() {
         assertEquals(100, barbarian.getHealthPoints());
+    }
+
+    @Test
+    public void hasVictoryPoints() {
         assertEquals(0, barbarian.getVictoryPoints());
-        assertEquals(WeaponType.AXE, barbarian.getWeapon());
-        assertEquals(ArmourType.CUIRASS, barbarian.getArmour());
-
-
-
     }
 
     @Test
     public void canGetPowerpoints() {
         assertEquals(30, barbarian.getPowerPoints());
+    }
+
+    @Test
+    public void hasWeapon() {
+        assertEquals(WeaponType.AXE, barbarian.getWeapon());
+    }
+
+    @Test
+    public void hasArmour() {
+        assertEquals(ArmourType.CUIRASS, barbarian.getArmour());
     }
 }
