@@ -11,7 +11,7 @@ public class RoomTest {
     Room room;
 
     @Before
-    public  void before(){
+    public void before(){
         room = new Room("room1", EnemyType.TROLL, TreasureType.BAGOFDIAMONDS);
     }
 

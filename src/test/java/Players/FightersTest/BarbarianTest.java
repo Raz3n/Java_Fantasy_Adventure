@@ -11,7 +11,6 @@ import static org.junit.Assert.assertEquals;
 public class BarbarianTest {
 
     Barbarian barbarian;
-    WeaponType weapon;
 
 
     @Before
@@ -20,7 +19,7 @@ public class BarbarianTest {
     }
 
     @Test
-    public void hasInheritedParameters(){
+    public void hasName(){
         assertEquals("Juan", barbarian.getName());
     }
 

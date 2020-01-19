@@ -1,9 +1,6 @@
 package Players.SpellCastersTest;
 
-import Components.Tools.ArmourType;
-import Components.Tools.CreatureType;
-import Components.Tools.SpellType;
-import Components.Tools.WeaponType;
+import Components.Tools.*;
 import Players.Spellcasters.Warlock;
 import org.junit.Before;
 import org.junit.Test;
@@ -19,16 +16,27 @@ public class WarlockTest {
     }
 
     @Test
-    public void hasInheritedParameters() {
+    public void hasName(){
         assertEquals("Naz", warlock.getName());
-        assertEquals(100, warlock.getHealthPoints());
-        assertEquals(0, warlock.getVictoryPoints());
-        assertEquals(SpellType.BUBBLESORT, warlock.getSpell());
-        assertEquals(CreatureType.EUGENE, warlock.getCreature());
     }
 
     @Test
-    public void canGetPowerPoints() {
-        assertEquals(100, warlock.getPowerPoints());
+    public void hasHealthPoints() {
+        assertEquals(100, warlock.getHealthPoints());
+    }
+
+    @Test
+    public void hasVictoryPoints() {
+        assertEquals(0, warlock.getVictoryPoints());
+    }
+
+    @Test
+    public void hasSpell() {
+        assertEquals(SpellType.BUBBLESORT, warlock.getSpell());
+    }
+
+    @Test
+    public void hasCreature() {
+            assertEquals(CreatureType.EUGENE, warlock.getCreature());
     }
 }

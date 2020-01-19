@@ -1,6 +1,5 @@
-import Components.EnemyType;
+import Players.Fighters.Barbarian;
 import Players.Player;
-import Players.Spellcasters.Warlock;
 import Rooms.Room;
 
 public class Game {
@@ -28,11 +27,28 @@ public class Game {
         }
     }
 
-    public int fightOutcomeHealthPoints(Room room, Player player) {
-            return player.getHealthPoints() - room.getEnemy().getDamage();
+
+    public void fightOutcomeHealthPoints(Room room, Player player) {
+        if(fight(room,player) == false) {
+            switch (player.getHealthPoints() - room.getEnemy().getDamage()) {
+            }
+        }
+        switch (player.getVictoryPoints() + room.getTreasure().getVictoryPoints()) {
         }
 
+
     }
+}
+
+//    public int fightOutcomeHealthPoints(Room room, Player player) {
+//        int newHp = player.getHealthPoints();
+//        if (fight(room, player) == false) {
+//            return newHp = player.getHealthPoints() - room.getEnemy().getDamage();
+//        }
+//        return player.getVictoryPoints() + room.getTreasure().getVictoryPoints();
+//    }
+//
+//    }
 
 
 
